@@ -1,0 +1,36 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\aa\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js init
+
+PATH: 
+  C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Users\aa\AppData\Local\Programs\Python\Python37-32;C:\Program Files (x86)\PostgreSQL\10\bin;C:\WINDOWS\System32\OpenSSH;C:\Program Files\MongoDB\Server\4.0\bin;C:\Program Files\Git\cmd;C:\Users\aa\AppData\Local\Microsoft\WindowsApps;C:\Users\aa\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\aa\AppData\Roaming\npm;C:\Users\aa\AppData\Local\Android\Sdk\emulator;C:\Users\aa\AppData\Local\Android\Sdk\tools;C:\Users\aa\AppData\Local\Android\Sdk\tools\bin;C:\Users\aa\AppData\Local\Android\Sdk\platform-tools;
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  10.14.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (C:\Users\aa\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:125278:13)
+      at Interface.emit (events.js:182:13)
+      at Interface._ttyWrite (readline.js:783:16)
+      at ReadStream.onkeypress (readline.js:168:10)
+      at ReadStream.emit (events.js:182:13)
+      at emitKeys (internal/readline.js:424:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1022:36)
+      at ReadStream.emit (events.js:182:13)
+      at addChunk (_stream_readable.js:283:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
