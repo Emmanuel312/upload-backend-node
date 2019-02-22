@@ -24,7 +24,4 @@ app.use(require('./routes'))
 app.use('/files', express.static(path.resolve(__dirname,'..','tmp','uploads')))
 // static libera acesso p arquivos estaticos
 
-app.listen(3000, () =>
-{
-    console.log('backend executando...')
-})
+app.listen(process.env.PORT || 3000)
